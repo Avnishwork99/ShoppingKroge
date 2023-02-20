@@ -7,6 +7,8 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { SidebarComponent } from './MyComponents/sidebar/sidebar.component';
 import { BottomComponent } from './MyComponents/bottom/bottom.component';
 import { NavbarComponent } from './MyComponents/navbar/navbar.component';
+import { DataCardComponent } from './MyComponents/data-card/data-card.component';
+import { DataAreaComponent } from './MyComponents/data-area/data-area.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { NavbarComponent } from './MyComponents/navbar/navbar.component';
     SignInComponent,
     SidebarComponent,
     BottomComponent,
-    NavbarComponent
+    NavbarComponent,
+    DataCardComponent,
+    DataAreaComponent
   ],
   imports: [
     BrowserModule,

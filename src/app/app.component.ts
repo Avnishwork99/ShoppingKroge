@@ -9,7 +9,7 @@ import { Data } from './data';
 export class AppComponent {
   title = 'ShoppingKroge??';
   navbar = "ShoppingKroge!!";
-  data:Data[] | undefined;
+  data:Data[];
   constructor(){
     this.data=[
       {

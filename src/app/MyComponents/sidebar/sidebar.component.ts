@@ -1,6 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { Data } from '@angular/router';
-import { AppComponent } from 'src/app/app.component';
 
 @Component({
   selector: 'app-sidebar',
@@ -8,5 +6,4 @@ import { AppComponent } from 'src/app/app.component';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent {
-  @Input() data:Data[] | undefined;
 }
