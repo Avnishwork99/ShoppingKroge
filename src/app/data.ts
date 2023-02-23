@@ -1,5 +1,5 @@
 export class Data{
-    sno: number | undefined
-    name: string | undefined
-    title : string | undefined
+    sno!: number
+    name!: string
+    title!: string
 }

@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Data } from 'src/app/data';
 
 @Component({
   selector: 'app-sidebar',
@@ -6,4 +7,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent {
+  @Input()
+  data!: Data[];
 }
